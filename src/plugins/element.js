@@ -24,7 +24,12 @@ import {
   Pagination,
   Dialog,
   MessageBox,
-  Tabs, TabPane
+  Tabs,
+  TabPane,
+  Dropdown,
+  DropdownMenu,
+  DropdownItem,
+  Checkbox
 } from 'element-ui'
 
 Vue.use(Button)
@@ -51,5 +56,10 @@ Vue.use(Pagination)
 Vue.use(Dialog)
 Vue.use(Tabs)
 Vue.use(TabPane)
+Vue.use(Dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
+Vue.use(Checkbox)
+
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
