@@ -6,7 +6,18 @@
                 <!-- <img src="../assets/logo.png" alt=""> -->
                 <span>北京胜时代生物科技有限公司--绘图工具</span>
             </div>
-            <el-button type="info" @click="logout">退出</el-button></el-header>
+            <el-dropdown trigger="click">
+              <span class="el-dropdown-link">
+                admin<i class="el-icon-arrow-down el-icon--right"></i><!--当前登录用户名-->
+              </span>
+              <el-dropdown-menu slot="dropdown">
+                <el-dropdown-item >个人中心</el-dropdown-item>
+                <el-dropdown-item >修改密码</el-dropdown-item>
+                <el-dropdown-item  @click.native="logout">退出</el-dropdown-item>
+              </el-dropdown-menu>
+            </el-dropdown>
+            <!-- <el-button type="info">退出</el-button> -->
+          </el-header>
         <!-- 主题区域 -->
         <el-container>
             <!-- 侧边栏  -->
@@ -121,5 +132,8 @@ export default {
     line-height: 24px;//行高
     letter-spacing: 0.2em;// 字间距
     cursor: pointer;// 鼠标放上去变小手
+}
+.el-dropdown-link{
+  color: #fff;
 }
 </style>

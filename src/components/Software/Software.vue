@@ -12,7 +12,7 @@
     </el-card>
     <div>
 
-      <el-card class="box-card mappings" body-style="{width:100%;}">
+      <el-card class="box-card mappings" body-style="{'width':100%,'height':100%}">
         <div class="mappings-header">
           <div class="tab-left">
             <span style="margin-right:20px;font-size:14px;">分类:</span>
@@ -39,18 +39,121 @@
 
         <div class="meppings-bootm">
           <el-row :gutter="10">
-            <el-col :xs="2" :sm="2" :md="3" :lg="3" :xl="4"><div class="grid-content bg-purple"></div></el-col>
-          </el-row>
-          <!-- <el-card :body-style="{ padding: '0px' }">
-            <img src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png" class="image">
-            <div style="padding: 14px;">
-              <span>好吃的汉堡</span>
-              <div class="bottom clearfix">
-                <time class="time">{{ currentDate }}</time>
-                <el-button type="text" class="button">操作按钮</el-button>
+            <el-col :xs="24" :sm="24" :md="12"  :lg="8" :xl="6" ><!-- -->
+              <div class="grid-content" >
+                <el-card class="maps-card" body-style="{ padding: '15px';margin:'10px'; position: 'relative';}">
+                  <div  class="maps-image">
+                    <img src="../../assets/software_map/reportheatmap.png">
+                  </div>
+                  <div class="maps-content">
+                    <span>动态热图</span>
+                    <div class="bottom clearfix">
+                      <!-- <time class="time">{{ currentDate }}</time> -->
+                      <div style="font-family:Arial;">
+                        将表格数据绘制成一个热图
+                      </div>
+
+                    </div>
+                  </div>
+                </el-card>
               </div>
-            </div>
-          </el-card> -->
+            </el-col>
+            <el-col  :xs="24" :sm="24" :md="12"  :lg="8" :xl="6"><!-- -->
+              <div class="grid-content" >
+                <el-card class="maps-card" body-style="{ padding: '15px';margin:'10px'; position: 'relative';}">
+                  <div  class="maps-image">
+                    <img src="../../assets/software_map/reportheatmap.png">
+                  </div>
+                  <div class="maps-content">
+                    <span>动态热图</span>
+                    <div class="bottom clearfix">
+                      <!-- <time class="time">{{ currentDate }}</time> -->
+                      <div style="font-family:Arial;">
+                        将表格数据绘制成一个热图
+                      </div>
+
+                    </div>
+                  </div>
+                </el-card>
+              </div>
+            </el-col>
+            <el-col :xs="24" :sm="24" :md="12"  :lg="8" :xl="6" ><!-- -->
+              <div class="grid-content" >
+                <el-card class="maps-card" body-style="{ padding: '15px';margin:'10px'; position: 'relative';}">
+                  <div  class="maps-image">
+                    <img src="../../assets/software_map/reportheatmap.png">
+                  </div>
+                  <div class="maps-content">
+                    <span>动态热图</span>
+                    <div class="bottom clearfix">
+                      <!-- <time class="time">{{ currentDate }}</time> -->
+                      <div style="font-family:Arial;">
+                        将表格数据绘制成一个热图
+                      </div>
+
+                    </div>
+                  </div>
+                </el-card>
+              </div>
+            </el-col>
+            <el-col  :xs="24" :sm="24" :md="12"  :lg="8" :xl="6"><!-- -->
+              <div class="grid-content" >
+                <el-card class="maps-card" body-style="{ padding: '15px';margin:'10px'; position: 'relative';}">
+                  <div  class="maps-image">
+                    <img src="../../assets/software_map/reportheatmap.png">
+                  </div>
+                  <div class="maps-content">
+                    <span>动态热图</span>
+                    <div class="bottom clearfix">
+                      <!-- <time class="time">{{ currentDate }}</time> -->
+                      <div style="font-family:Arial;">
+                        将表格数据绘制成一个热图
+                      </div>
+
+                    </div>
+                  </div>
+                </el-card>
+              </div>
+            </el-col>
+            <el-col :xs="24" :sm="24" :md="12"  :lg="8" :xl="6" ><!-- -->
+              <div class="grid-content" >
+                <el-card class="maps-card" body-style="{ padding: '15px';margin:'10px'; position: 'relative';}">
+                  <div  class="maps-image">
+                    <img src="../../assets/software_map/reportheatmap.png">
+                  </div>
+                  <div class="maps-content">
+                    <span>动态热图</span>
+                    <div class="bottom clearfix">
+                      <!-- <time class="time">{{ currentDate }}</time> -->
+                      <div style="font-family:Arial;">
+                        将表格数据绘制成一个热图
+                      </div>
+
+                    </div>
+                  </div>
+                </el-card>
+              </div>
+            </el-col>
+            <el-col  :xs="24" :sm="24" :md="12"  :lg="8" :xl="6"><!-- -->
+              <div class="grid-content" >
+                <el-card class="maps-card" body-style="{ padding: '15px';margin:'10px'; position: 'relative';}">
+                  <div  class="maps-image">
+                    <img src="../../assets/software_map/reportheatmap.png">
+                  </div>
+                  <div class="maps-content">
+                    <span>动态热图</span>
+                    <div class="bottom clearfix">
+                      <!-- <time class="time">{{ currentDate }}</time> -->
+                      <div style="font-family:Arial;">
+                        将表格数据绘制成一个热图
+                      </div>
+
+                    </div>
+                  </div>
+                </el-card>
+              </div>
+            </el-col>
+          </el-row>
 
         </div>
       </el-card>
@@ -94,9 +197,31 @@ export default {
   position: relative;
 }
 .meppings-middle{
-  position: relative;
-  float: right;
+  // position: relative;
+  // float: right;
   margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
 }
-
+.maps-image{
+  padding: 20px;
+  float: left;
+}
+.maps-content{
+  float: right;
+  width: 220px;
+}
+.maps-card{
+  // margin-top: 70px;
+}
+.grid-content{
+  padding-top:15px;
+  width: 396px;
+}
+row{
+  // display: flex;
+  // flex-wrap:wrap;
+}
 </style>
